@@ -1,3 +1,33 @@
 [submodule "git/dotfiles"]
 	path = git/dotfiles
 	url = git://github.com/tyru/dotfiles.git
+[submodule "git/bfi.py"]
+	path = git/bfi.py
+	url = git://github.com/tyru/bfi.py.git
+[submodule "git/forth-interp"]
+	path = git/forth-interp
+	url = git://github.com/tyru/forth-interp.git
+[submodule "git/dentaku"]
+	path = git/dentaku
+	url = git://github.com/tyru/dentaku.git
+[submodule "git/tyru.github.com"]
+	path = git/tyru.github.com
+	url = git://github.com/tyru/tyru.github.com.git
+[submodule "git/watchman"]
+	path = git/watchman
+	url = git://github.com/tyru/watchman.git
+[submodule "git/vice-sandbox"]
+	path = git/vice-sandbox
+	url = git://github.com/tyru/vice-sandbox.git
+[submodule "git/libdatastruct"]
+	path = git/libdatastruct
+	url = git://github.com/tyru/libdatastruct.git
+[submodule "git/iex"]
+	path = git/iex
+	url = git://github.com/tyru/iex.git
+[submodule "git/hatenadiary-writer"]
+	path = git/hatenadiary-writer
+	url = git://github.com/tyru/hatenadiary-writer.git
+[submodule "git/hatenadiary-writer-wrapper"]
+	path = git/hatenadiary-writer-wrapper
+	url = git://github.com/tyru/hatenadiary-writer-wrapper.git
