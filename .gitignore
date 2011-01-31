@@ -4,8 +4,7 @@
 
 # Allow some files to version-control.
 !.gitignore
+!.gitmodules
 !bin
 !bin.d
 !/git
-!/svn
-!/hg
