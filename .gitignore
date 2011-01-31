@@ -1,0 +1,11 @@
+
+# Ignore all files.
+/*
+
+# Allow some files to version-control.
+!.gitignore
+!bin
+!bin.d
+!/git
+!/svn
+!/hg
