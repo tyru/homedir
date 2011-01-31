@@ -31,3 +31,9 @@
 [submodule "git/hatenadiary-writer-wrapper"]
 	path = git/hatenadiary-writer-wrapper
 	url = git://github.com/tyru/hatenadiary-writer-wrapper.git
+[submodule "git/bookman"]
+	path = git/bookman
+	url = git://github.com/tyru/bookman.git
+[submodule "git/weavel"]
+	path = git/weavel
+	url = git://github.com/tyru/weavel.git
