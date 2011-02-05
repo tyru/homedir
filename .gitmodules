@@ -40,3 +40,12 @@
 [submodule "git/com.appspot"]
 	path = git/com.appspot
 	url = git://github.com/tyru/com.appspot.git
+[submodule "git/p5-Acme-FizzBuzz-Descriptive"]
+	path = git/p5-Acme-FizzBuzz-Descriptive
+	url = git://github.com/tyru/p5-Acme-FizzBuzz-Descriptive.git
+[submodule "git/p5-Data-Validator"]
+	path = git/p5-Data-Validator
+	url = git://github.com/tyru/p5-Data-Validator.git
+[submodule "git/p5-Getopt-SubCommand"]
+	path = git/p5-Getopt-SubCommand
+	url = git://github.com/tyru/p5-Getopt-SubCommand.git
