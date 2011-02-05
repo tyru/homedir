@@ -37,3 +37,6 @@
 [submodule "git/weavel"]
 	path = git/weavel
 	url = git://github.com/tyru/weavel.git
+[submodule "git/com.appspot"]
+	path = git/com.appspot
+	url = git://github.com/tyru/com.appspot.git
