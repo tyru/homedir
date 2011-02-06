@@ -58,3 +58,9 @@
 [submodule "git/gittools"]
 	path = git/gittools
 	url = git://github.com/tyru/gittools.git
+[submodule "git/gyazo-linux"]
+	path = git/gyazo-linux
+	url = git://github.com/tyru/gyazo-linux.git
+[submodule "git/gnome-utils"]
+	path = git/gnome-utils
+	url = git://github.com/tyru/gnome-utils.git
