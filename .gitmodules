@@ -127,3 +127,6 @@
 [submodule "git/cmdwincomplete.vim"]
 	path = git/cmdwincomplete.vim
 	url = git://github.com/tyru/cmdwincomplete.vim.git
+[submodule "git/cppref"]
+	path = git/cppref
+	url = git://github.com/kazuho/cppref.git
