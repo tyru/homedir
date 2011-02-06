@@ -64,3 +64,27 @@
 [submodule "git/gnome-utils"]
 	path = git/gnome-utils
 	url = git://github.com/tyru/gnome-utils.git
+[submodule "git/init-loader.vim"]
+	path = git/init-loader.vim
+	url = git://github.com/tyru/init-loader.vim.git
+[submodule "git/pummode.vim"]
+	path = git/pummode.vim
+	url = git://github.com/tyru/pummode.vim.git
+[submodule "git/auto-source.vim"]
+	path = git/auto-source.vim
+	url = git://github.com/tyru/auto-source.vim.git
+[submodule "git/unretab.vim"]
+	path = git/unretab.vim
+	url = git://github.com/tyru/unretab.vim.git
+[submodule "git/setupenv"]
+	path = git/setupenv
+	url = git://github.com/tyru/setupenv.git
+[submodule "git/setup-scripts"]
+	path = git/setup-scripts
+	url = git://github.com/tyru/setup-scripts.git
+[submodule "git/vim"]
+	path = git/vim
+	url = git://github.com/tyru/vim.git
+[submodule "git/nanotap"]
+	path = git/nanotap
+	url = git://github.com/tyru/nanotap.git
