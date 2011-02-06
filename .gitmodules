@@ -88,3 +88,30 @@
 [submodule "git/nanotap"]
 	path = git/nanotap
 	url = git://github.com/tyru/nanotap.git
+[submodule "git/git-hg"]
+	path = git/git-hg
+	url = git://github.com/offbytwo/git-hg.git
+[submodule "git/libcallex-vim"]
+	path = git/libcallex-vim
+	url = git://github.com/mattn/libcallex-vim.git
+[submodule "git/fencview.vim"]
+	path = git/fencview.vim
+	url = git://github.com/tyru/fencview.vim.git
+[submodule "git/textobj-pattern.vim"]
+	path = git/textobj-pattern.vim
+	url = git://github.com/tyru/textobj-pattern.vim.git
+[submodule "git/unite-mark"]
+	path = git/unite-mark
+	url = git://github.com/tyru/unite-mark.git
+[submodule "git/vim-funlib"]
+	path = git/vim-funlib
+	url = git://github.com/ynkdir/vim-funlib.git
+[submodule "git/vim-poslist"]
+	path = git/vim-poslist
+	url = git://github.com/thinca/vim-poslist.git
+[submodule "git/termtter"]
+	path = git/termtter
+	url = git://github.com/jugyo/termtter.git
+[submodule "git/skkdict.vim"]
+	path = git/skkdict.vim
+	url = git://github.com/tyru/skkdict.vim.git
