@@ -115,3 +115,9 @@
 [submodule "git/skkdict.vim"]
 	path = git/skkdict.vim
 	url = git://github.com/tyru/skkdict.vim.git
+[submodule "git/App-gh"]
+	path = git/App-gh
+	url = git://github.com/c9s/App-gh.git
+[submodule "git/tpope-vim-surround"]
+	path = git/tpope-vim-surround
+	url = git://github.com/tpope/vim-surround.git
