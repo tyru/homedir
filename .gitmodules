@@ -130,3 +130,6 @@
 [submodule "git/cppref"]
 	path = git/cppref
 	url = git://github.com/kazuho/cppref.git
+[submodule "git/screen-session"]
+	path = git/screen-session
+	url = git://github.com/skoneka/screen-session.git
