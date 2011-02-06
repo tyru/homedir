@@ -55,3 +55,6 @@
 [submodule "git/joltserver"]
 	path = git/joltserver
 	url = git://github.com/tyru/joltserver.git
+[submodule "git/gittools"]
+	path = git/gittools
+	url = git://github.com/tyru/gittools.git
