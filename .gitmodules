@@ -121,3 +121,9 @@
 [submodule "git/tpope-vim-surround"]
 	path = git/tpope-vim-surround
 	url = git://github.com/tpope/vim-surround.git
+[submodule "git/command-buffer.vim"]
+	path = git/command-buffer.vim
+	url = git://github.com/tyru/command-buffer.vim.git
+[submodule "git/cmdwincomplete.vim"]
+	path = git/cmdwincomplete.vim
+	url = git://github.com/tyru/cmdwincomplete.vim.git
