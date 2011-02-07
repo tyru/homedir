@@ -64,18 +64,6 @@
 [submodule "git/gnome-utils"]
 	path = git/gnome-utils
 	url = git://github.com/tyru/gnome-utils.git
-[submodule "git/init-loader.vim"]
-	path = git/init-loader.vim
-	url = git://github.com/tyru/init-loader.vim.git
-[submodule "git/pummode.vim"]
-	path = git/pummode.vim
-	url = git://github.com/tyru/pummode.vim.git
-[submodule "git/auto-source.vim"]
-	path = git/auto-source.vim
-	url = git://github.com/tyru/auto-source.vim.git
-[submodule "git/unretab.vim"]
-	path = git/unretab.vim
-	url = git://github.com/tyru/unretab.vim.git
 [submodule "git/setupenv"]
 	path = git/setupenv
 	url = git://github.com/tyru/setupenv.git
@@ -94,12 +82,6 @@
 [submodule "git/libcallex-vim"]
 	path = git/libcallex-vim
 	url = git://github.com/mattn/libcallex-vim.git
-[submodule "git/fencview.vim"]
-	path = git/fencview.vim
-	url = git://github.com/tyru/fencview.vim.git
-[submodule "git/textobj-pattern.vim"]
-	path = git/textobj-pattern.vim
-	url = git://github.com/tyru/textobj-pattern.vim.git
 [submodule "git/unite-mark"]
 	path = git/unite-mark
 	url = git://github.com/tyru/unite-mark.git
@@ -121,9 +103,6 @@
 [submodule "git/tpope-vim-surround"]
 	path = git/tpope-vim-surround
 	url = git://github.com/tpope/vim-surround.git
-[submodule "git/command-buffer.vim"]
-	path = git/command-buffer.vim
-	url = git://github.com/tyru/command-buffer.vim.git
 [submodule "git/cmdwincomplete.vim"]
 	path = git/cmdwincomplete.vim
 	url = git://github.com/tyru/cmdwincomplete.vim.git
