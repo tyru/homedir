@@ -172,3 +172,6 @@
 [submodule "git/forth-interp2"]
 	path = git/forth-interp2
 	url = git://github.com/tyru/forth-interp2.git
+[submodule "git/thrift"]
+	path = git/thrift
+	url = git://git.apache.org/thrift.git
