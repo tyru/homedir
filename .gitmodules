@@ -187,3 +187,9 @@
 [submodule "git/emacs"]
 	path = git/emacs
 	url = git://git.savannah.gnu.org/emacs.git
+[submodule "git/gcc"]
+	path = git/gcc
+	url = git://gcc.gnu.org/git/gcc.git
+[submodule "git/forth-interp2"]
+	path = git/forth-interp2
+	url = git://github.com/tyru/forth-interp2.git
