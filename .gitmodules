@@ -139,3 +139,30 @@
 [submodule "git/traverse-timestamps"]
 	path = git/traverse-timestamps
 	url = git://github.com/tyru/traverse-timestamps.git
+[submodule "git/termtter-plugins"]
+	path = git/termtter-plugins
+	url = git://github.com/ktgy/termtter-plugins.git
+[submodule "git/vimtlib"]
+	path = git/vimtlib
+	url = git://github.com/tomtom/vimtlib.git
+[submodule "git/cpan-outdated"]
+	path = git/cpan-outdated
+	url = git://github.com/tokuhirom/cpan-outdated.git
+[submodule "git/cpanminus"]
+	path = git/cpanminus
+	url = git://github.com/miyagawa/cpanminus.git
+[submodule "git/Vimana"]
+	path = git/Vimana
+	url = git://github.com/c9s/Vimana.git
+[submodule "git/Viyond"]
+	path = git/Viyond
+	url = git://github.com/zentooo/Viyond.git
+[submodule "git/WWW-Pixiv"]
+	path = git/WWW-Pixiv
+	url = git://github.com/kuzuha/WWW-Pixiv.git
+[submodule "git/ack"]
+	path = git/ack
+	url = git://github.com/petdance/ack.git
+[submodule "git/kana-config"]
+	path = git/kana-config
+	url = git://github.com/kana/config.git
