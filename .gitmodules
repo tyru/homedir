@@ -133,3 +133,6 @@
 [submodule "git/screen-session"]
 	path = git/screen-session
 	url = git://github.com/skoneka/screen-session.git
+[submodule "git/backup-scripts"]
+	path = git/backup-scripts
+	url = git://github.com/tyru/backup-scripts.git
