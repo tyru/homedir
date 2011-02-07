@@ -181,3 +181,9 @@
 [submodule "git/mdv"]
 	path = git/mdv
 	url = git://github.com/ujihisa/mdv.git
+[submodule "git/gitignore"]
+	path = git/gitignore
+	url = git://github.com/github/gitignore.git
+[submodule "git/emacs"]
+	path = git/emacs
+	url = git://git.savannah.gnu.org/emacs.git
