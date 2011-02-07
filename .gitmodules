@@ -136,3 +136,6 @@
 [submodule "git/backup-scripts"]
 	path = git/backup-scripts
 	url = git://github.com/tyru/backup-scripts.git
+[submodule "git/traverse-timestamps"]
+	path = git/traverse-timestamps
+	url = git://github.com/tyru/traverse-timestamps.git
