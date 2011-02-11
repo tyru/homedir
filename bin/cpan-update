@@ -11,9 +11,6 @@ for prereq in cpan-outdated cpanm; do
     fi
 done
 
-# TODO: Check if local::lib is installed.
-
-
 if [ -d "$MINICPAN_MIRROR" ]; then
     mirror="--mirror $MINICPAN_MIRROR"
 else
