@@ -11,7 +11,15 @@ for prereq in cpan-outdated cpanm; do
     fi
 done
 
+
+while [ $# -ne 0 ]; do
+    if [ "$1" = "-q" -o "$1" = "--quiet" ]; then
+        quiet="--quiet"
+    fi
+    shift
+done
+
 if [ -d "$MINICPAN_MIRROR" ]; then
     mirror="--mirror $MINICPAN_MIRROR"
 fi
-cpan-outdated | xargs cpanm $mirror
+cpan-outdated | xargs cpanm $mirror $quiet
