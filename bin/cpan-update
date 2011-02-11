@@ -13,7 +13,5 @@ done
 
 if [ -d "$MINICPAN_MIRROR" ]; then
     mirror="--mirror $MINICPAN_MIRROR"
-else
-    mirror=
 fi
 cpan-outdated | xargs cpanm $mirror
