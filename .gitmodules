@@ -175,3 +175,6 @@
 [submodule "git/thrift"]
 	path = git/thrift
 	url = git://git.apache.org/thrift.git
+[submodule "git/jsref"]
+	path = git/jsref
+	url = git://github.com/walf443/jsref.git
