@@ -33,10 +33,10 @@
 	url = git://github.com/tyru/hatenadiary-writer-wrapper.git
 [submodule "git/bookman"]
 	path = git/bookman
-	url = git://github.com/tyru/bookman.git
+	url = git://gist.github.com/769264.git
 [submodule "git/weavel"]
 	path = git/weavel
-	url = git://github.com/tyru/weavel.git
+	url = git://gist.github.com/790407.git
 [submodule "git/com.appspot"]
 	path = git/com.appspot
 	url = git://github.com/tyru/com.appspot.git
