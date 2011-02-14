@@ -178,3 +178,6 @@
 [submodule "git/jsref"]
 	path = git/jsref
 	url = git://github.com/walf443/jsref.git
+[submodule "git/lingr.wiki"]
+	path = git/lingr.wiki
+	url = git://github.com/lingr/lingr.wiki.git
