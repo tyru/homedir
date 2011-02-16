@@ -181,3 +181,6 @@
 [submodule "git/lingr.wiki"]
 	path = git/lingr.wiki
 	url = git://github.com/lingr/lingr.wiki.git
+[submodule "git/vital.vim"]
+	path = git/vital.vim
+	url = git://github.com/ujihisa/vital.vim.git
