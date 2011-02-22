@@ -184,3 +184,6 @@
 [submodule "git/vital.vim"]
 	path = git/vital.vim
 	url = git://github.com/ujihisa/vital.vim.git
+[submodule "git/macvim"]
+	path = git/macvim
+	url = git://github.com/b4winckler/macvim.git
