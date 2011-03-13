@@ -45,16 +45,16 @@
 	url = git://github.com/tyru/p5-Acme-FizzBuzz-Descriptive.git
 [submodule "git/p5-Data-Validator"]
 	path = git/p5-Data-Validator
-	url = git://github.com/tyru/p5-Data-Validator.git
+	url = git://github.com/gfx/p5-Data-Validator.git
 [submodule "git/p5-Getopt-SubCommand"]
 	path = git/p5-Getopt-SubCommand
 	url = git://github.com/tyru/p5-Getopt-SubCommand.git
 [submodule "git/jolt"]
 	path = git/jolt
-	url = git://github.com/tyru/jolt.git
+	url = git://github.com/vimjolts/jolt.git
 [submodule "git/joltserver"]
 	path = git/joltserver
-	url = git://github.com/tyru/joltserver.git
+	url = git://github.com/vimjolts/joltserver.git
 [submodule "git/gittools"]
 	path = git/gittools
 	url = git://github.com/tyru/gittools.git
