@@ -190,3 +190,12 @@
 [submodule "git/fastpack"]
 	path = git/fastpack
 	url = git://gist.github.com/877557.git
+[submodule "git/vim-alignta"]
+	path = git/vim-alignta
+	url = git://github.com/h1mesuke/vim-alignta.git
+[submodule "git/vim-oop"]
+	path = git/vim-oop
+	url = git://github.com/h1mesuke/vim-oop.git
+[submodule "git/vim-unittest"]
+	path = git/vim-unittest
+	url = git://github.com/h1mesuke/vim-unittest.git
