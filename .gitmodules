@@ -199,3 +199,6 @@
 [submodule "git/vim-unittest"]
 	path = git/vim-unittest
 	url = git://github.com/h1mesuke/vim-unittest.git
+[submodule "git/checkbot"]
+	path = git/checkbot
+	url = git://github.com/tyru/checkbot.git
