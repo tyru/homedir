@@ -187,3 +187,6 @@
 [submodule "git/macvim"]
 	path = git/macvim
 	url = git://github.com/b4winckler/macvim.git
+[submodule "git/fastpack"]
+	path = git/fastpack
+	url = git://gist.github.com/385661.git
