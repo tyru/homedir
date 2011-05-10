@@ -202,3 +202,6 @@
 [submodule "git/earthquake"]
 	path = git/earthquake
 	url = git://github.com/jugyo/earthquake.git
+[submodule "git/xulmigemo"]
+	path = git/xulmigemo
+	url = git://github.com/piroor/xulmigemo.git
