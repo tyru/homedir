@@ -1,0 +1,37 @@
+#!/bin/sh
+
+# https://gist.github.com/705408
+# (This is modified version of bleis-tift. https://gist.github.com/854402 )
+
+PREFIX="from now"
+MESSAGE="[${PREFIX}] `date +\"%Y/%m/%d %T\"`"
+
+if [ $# -eq 0 ]
+then
+    git add -u
+    printf "${MESSAGE}\n\n%s" "`git diff --cached`" | git commit -F -
+elif [ $1 != "--rebase" ]
+then
+    if [ $1 != "--all" ]
+    then
+        git add $@
+    else
+        git add -u
+        git add .
+    fi
+    printf "${MESSAGE}\n\n%s" "`git diff --cached`" | git commit -F -
+else
+    FIRST_NOW_COMMIT=`git log --pretty=oneline --grep="${PREFIX}" | tail -n 1 | cut -d " " -f 1`
+    INITIAL_COMMIT=`git log --pretty=oneline | tail -n 1 | cut -d " " -f 1`
+
+    if [ ${FIRST_NOW_COMMIT} != ${INITIAL_COMMIT} ]
+    then
+        git rebase -i ${FIRST_NOW_COMMIT}^
+    else
+        WORKING_BRANCH=`git branch -l | grep "*" | cut -d " " -f 2`
+
+        git checkout ${FIRST_NOW_COMMIT}
+        git commit --amend
+        git rebase --onto HEAD ${FIRST_NOW_COMMIT} ${WORKING_BRANCH}
+    fi
+fi
