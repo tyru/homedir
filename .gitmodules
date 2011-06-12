@@ -205,3 +205,9 @@
 [submodule "git/xulmigemo"]
 	path = git/xulmigemo
 	url = git://github.com/piroor/xulmigemo.git
+[submodule "git/llvm"]
+	path = git/llvm
+	url = http://llvm.org/git/llvm.git
+[submodule "git/clang"]
+	path = git/clang
+	url = http://llvm.org/git/clang.git
