@@ -1,4 +1,9 @@
 #!/usr/bin/env perl
+
+### Use atool instead?
+### <http://www.nongnu.org/atool/>
+
+
 use common::sense;
 # use strict;
 # use warnings;
