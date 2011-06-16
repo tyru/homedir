@@ -211,3 +211,6 @@
 [submodule "git/clang"]
 	path = git/clang
 	url = http://llvm.org/git/clang.git
+[submodule "git/dlnico.pl"]
+	path = git/dlnico.pl
+	url = git://github.com/tyru/dlnico.pl.git
