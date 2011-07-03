@@ -214,3 +214,6 @@
 [submodule "git/dlnico.pl"]
 	path = git/dlnico.pl
 	url = git://github.com/tyru/dlnico.pl.git
+[submodule "git/com.dotcloud"]
+	path = git/com.dotcloud
+	url = git://github.com/tyru/com.dotcloud.git
