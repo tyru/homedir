@@ -10,9 +10,6 @@
 [submodule "git/dentaku"]
 	path = git/dentaku
 	url = git://github.com/tyru/dentaku.git
-[submodule "git/tyru.github.com"]
-	path = git/tyru.github.com
-	url = git://github.com/tyru/tyru.github.com.git
 [submodule "git/watchman"]
 	path = git/watchman
 	url = git://github.com/tyru/watchman.git
@@ -217,3 +214,9 @@
 [submodule "git/com.dotcloud"]
 	path = git/com.dotcloud
 	url = git://github.com/tyru/com.dotcloud.git
+[submodule "git/com.github.tyru"]
+	path = git/com.github.tyru
+	url = git://github.com/tyru/tyru.github.com.git
+[submodule "git/starter.pl"]
+	path = git/starter.pl
+	url = git://github.com/cho45/starter.pl.git
