@@ -220,3 +220,6 @@
 [submodule "git/openflow"]
 	path = git/openflow
 	url = git://openflow.org/openflow.git
+[submodule "git/lxc-debian"]
+	path = git/lxc-debian
+	url = git://gist.github.com/1115256.git
