@@ -223,3 +223,6 @@
 [submodule "git/lxc-debian"]
 	path = git/lxc-debian
 	url = git://gist.github.com/1115256.git
+[submodule "git/Gyazo-for-Linux"]
+	path = git/Gyazo-for-Linux
+	url = git://github.com/gyazo/Gyazo-for-Linux.git
