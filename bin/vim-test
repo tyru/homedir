@@ -1,0 +1,39 @@
+#!/bin/sh
+
+
+usage() {
+    echo "Usage: $(basename $0) OPTIONS [--] [{bundle-directory} ...]" >&2
+    exit 1
+}
+
+
+rtp=
+error=false
+vimrc=NORC
+viminfo=NONE
+
+# Parse option arguments.
+while [ $# -ne 0 ]; do
+    case "$1" in
+        -h|--help) usage ;;
+        -u) vimrc="$2"; shift ;;
+        -i) viminfo="$2"; shift ;;
+        -b)
+            if [ -d "$2" ]; then
+                local fullpath="`cd "$2" && pwd`"
+                rtp="$rtp --cmd 'set rtp+=$fullpath'"
+            else
+                echo "warning: '$2' is not directory." >&2
+                error=true
+            fi
+            shift
+            ;;
+        --) shift; break ;;
+        -*) echo "warning: unknown option '$1'" >&2; error=true ;;
+        *) break ;;
+    esac
+    shift
+done
+
+$error && sleep 2
+eval "exec vim -u $vimrc -i $viminfo -N $rtp $@"
