@@ -1,3 +1,10 @@
 #!/bin/sh
 
-[ $# -ne 0 ] && vim "$1" -c Gist -c quit!
+[ $# -ne 1 ] && exit 1
+vim "$1" \
+    -c 'if line("$") is 1 && getline(1) ==# "" | q!' \
+    -c 'if !exists(":Gist") | q!' \
+    -c 'if exists(":OpenBrowser") | let [g:gist_open_browser_after_post, g:gist_browser_command] = [1, ":OpenBrowser %URL%"]' \
+    -c 'Gist' \
+    -c 'q!'
+exit 0
