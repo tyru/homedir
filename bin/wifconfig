@@ -20,4 +20,9 @@ my $content = do {
 my $tree = HTML::TreeBuilder->new;
 $tree->parse($content);
 $tree->eof;
-print $tree->find('body')->as_text, "\n";
+if ($tree->find('body')->as_text =~ /REMOTE_ADDR=([0-9.]+)/) {
+    print "$1\n";
+}
+else {
+    die "parse error: Couldn't find IP Address.";
+}
