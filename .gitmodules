@@ -226,3 +226,6 @@
 [submodule "git/Gyazo-for-Linux"]
 	path = git/Gyazo-for-Linux
 	url = git://github.com/gyazo/Gyazo-for-Linux.git
+[submodule "git/convfmt"]
+	path = git/convfmt
+	url = git://github.com/tyru/convfmt.git
