@@ -4,9 +4,20 @@ use warnings;
 use utf8;
 
 use HTML::TreeBuilder;
-use LWP::Simple 'get';
+use LWP::UserAgent;
+use HTTP::Request;
+my $URL = 'http://taruo.net/ip/';
 
+
+my $content = do {
+    my $req = HTTP::Request->new(GET => $URL);
+    my $ua = LWP::UserAgent->new;
+    my $res = $ua->request($req);
+    die "GET $URL: ".$res->status_line."\n" unless $res->is_success;
+    # decoded_content() returns undef. (why?)
+    $res->content;
+};
 my $tree = HTML::TreeBuilder->new;
-$tree->parse(get('http://taruo.net/ip/?'));
+$tree->parse($content);
 $tree->eof;
 print $tree->find('body')->as_text, "\n";
