@@ -229,3 +229,6 @@
 [submodule "git/convfmt"]
 	path = git/convfmt
 	url = git://github.com/tyru/convfmt.git
+[submodule "git/lxc-tools"]
+	path = git/lxc-tools
+	url = git://github.com/phbaer/lxc-tools.git
