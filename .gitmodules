@@ -235,3 +235,6 @@
 [submodule "git/lxc"]
 	path = git/lxc
 	url = git://lxc.git.sourceforge.net/gitroot/lxc/lxc
+[submodule "git/libvirt"]
+	path = git/libvirt
+	url = git://git.et.redhat.com/libvirt.git
