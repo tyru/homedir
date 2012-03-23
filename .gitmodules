@@ -232,3 +232,6 @@
 [submodule "git/lxc-tools"]
 	path = git/lxc-tools
 	url = git://github.com/phbaer/lxc-tools.git
+[submodule "git/lxc"]
+	path = git/lxc
+	url = git://lxc.git.sourceforge.net/gitroot/lxc/lxc
