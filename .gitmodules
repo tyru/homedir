@@ -238,3 +238,6 @@
 [submodule "git/libvirt"]
 	path = git/libvirt
 	url = git://git.et.redhat.com/libvirt.git
+[submodule "git/l4ping"]
+	path = git/l4ping
+	url = git://github.com/tyru/l4ping.git
