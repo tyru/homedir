@@ -1,3 +1,0 @@
-#!/bin/sh
-
-/opt/acme-sac/bin/emu -r /opt/acme-sac -Cr8g8b8a8

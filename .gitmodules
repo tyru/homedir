@@ -241,3 +241,9 @@
 [submodule "git/l4ping"]
 	path = git/l4ping
 	url = git://github.com/tyru/l4ping.git
+[submodule "git/hatenabookmark-meets-delicious"]
+	path = git/hatenabookmark-meets-delicious
+	url = git://github.com/mattn/hatenabookmark-meets-delicious.git
+[submodule "git/kaztools"]
+	path = git/kaztools
+	url = git://github.com/kazuho/kaztools.git

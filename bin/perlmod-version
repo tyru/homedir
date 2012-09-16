@@ -1,8 +1,0 @@
-#!/bin/sh
-
-if [ $# -eq 0 ]; then
-    echo "Usage: $(basename $0) ModuleName" >&2
-    exit 1
-fi
-module="$1"
-perl -M$module -le "print $module->VERSION"
