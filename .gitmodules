@@ -69,7 +69,7 @@
 	url = git://github.com/tyru/setup-scripts.git
 [submodule "git/vim"]
 	path = git/vim
-	url = git://github.com/tyru/vim.git
+	url = git://github.com/vim-jp/vim.git
 [submodule "git/nanotap"]
 	path = git/nanotap
 	url = git://github.com/tyru/nanotap.git
@@ -91,9 +91,6 @@
 [submodule "git/termtter"]
 	path = git/termtter
 	url = git://github.com/jugyo/termtter.git
-[submodule "git/skkdict.vim"]
-	path = git/skkdict.vim
-	url = git://github.com/tyru/skkdict.vim.git
 [submodule "git/App-gh"]
 	path = git/App-gh
 	url = git://github.com/c9s/App-gh.git
@@ -109,9 +106,6 @@
 [submodule "git/screen-session"]
 	path = git/screen-session
 	url = git://github.com/skoneka/screen-session.git
-[submodule "git/backup-scripts"]
-	path = git/backup-scripts
-	url = git://github.com/tyru/backup-scripts.git
 [submodule "git/traverse-timestamps"]
 	path = git/traverse-timestamps
 	url = git://github.com/tyru/traverse-timestamps.git
@@ -247,3 +241,6 @@
 [submodule "git/kaztools"]
 	path = git/kaztools
 	url = git://github.com/kazuho/kaztools.git
+[submodule "git/ruby-build"]
+	path = git/ruby-build
+	url = git://github.com/sstephenson/ruby-build.git
